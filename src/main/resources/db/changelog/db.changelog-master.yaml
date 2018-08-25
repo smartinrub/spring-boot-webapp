@@ -1,0 +1,70 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: sergio
+      changes:
+        - createTable:
+            tableName: book
+            columns:
+              - column:
+                  name: id
+                  type: long
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: name
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: author
+                  type: varchar(255)
+                  constraints:
+                    nullable: true
+              - column:
+                  name: release_date
+                  type: int
+                  constraints:
+                    nullable: true
+              - column:
+                  name: length
+                  type: int
+                  constraints:
+                    nullable: true
+              - column:
+                  name: current_page
+                  type: int
+                  constraints:
+                    nullable: true
+              - column:
+                  name: is_read
+                  type: boolean
+                  constraints:
+                    nullable: true
+  - changeSet:
+      id: 2
+      author: sergio
+      changes:
+        - insert:
+            tableName: book
+            columns:
+              - column:
+                  name: name
+                  value: Head First Design Patterns
+              - column:
+                  name: author
+                  value: Elisabeth Freeman and Kathy Sierra
+              - column:
+                  name: release_date
+                  value: 2004
+              - column:
+                  name: is_read
+                  value: false
+              - column:
+                  name: length
+                  value: 694
+              - column:
+                  name: current_page
+                  value: 123
