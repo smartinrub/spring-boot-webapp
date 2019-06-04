@@ -68,3 +68,150 @@ databaseChangeLog:
               - column:
                   name: current_page
                   value: 123
+        - insert:
+            tableName: book
+            columns:
+              - column:
+                  name: name
+                  value: Book2
+              - column:
+                  name: author
+                  value: Elisabeth Freeman and Kathy Sierra
+              - column:
+                  name: release_date
+                  value: 2004
+              - column:
+                  name: is_read
+                  value: false
+              - column:
+                  name: length
+                  value: 694
+              - column:
+                  name: current_page
+                  value: 123
+        - insert:
+            tableName: book
+            columns:
+              - column:
+                  name: name
+                  value: Book3
+              - column:
+                  name: author
+                  value: Elisabeth Freeman and Kathy Sierra
+              - column:
+                  name: release_date
+                  value: 2004
+              - column:
+                  name: is_read
+                  value: false
+              - column:
+                  name: length
+                  value: 694
+              - column:
+                  name: current_page
+                  value: 123
+        - insert:
+            tableName: book
+            columns:
+              - column:
+                  name: name
+                  value: Book4
+              - column:
+                  name: author
+                  value: Elisabeth Freeman and Kathy Sierra
+              - column:
+                  name: release_date
+                  value: 2004
+              - column:
+                  name: is_read
+                  value: false
+              - column:
+                  name: length
+                  value: 694
+              - column:
+                  name: current_page
+                  value: 123
+        - insert:
+            tableName: book
+            columns:
+              - column:
+                  name: name
+                  value: Book5
+              - column:
+                  name: author
+                  value: Elisabeth Freeman and Kathy Sierra
+              - column:
+                  name: release_date
+                  value: 2004
+              - column:
+                  name: is_read
+                  value: false
+              - column:
+                  name: length
+                  value: 694
+              - column:
+                  name: current_page
+                  value: 123
+        - insert:
+            tableName: book
+            columns:
+              - column:
+                  name: name
+                  value: Book6
+              - column:
+                  name: author
+                  value: Elisabeth Freeman and Kathy Sierra
+              - column:
+                  name: release_date
+                  value: 2004
+              - column:
+                  name: is_read
+                  value: false
+              - column:
+                  name: length
+                  value: 694
+              - column:
+                  name: current_page
+                  value: 123
+        - insert:
+            tableName: book
+            columns:
+              - column:
+                  name: name
+                  value: Book7
+              - column:
+                  name: author
+                  value: Elisabeth Freeman and Kathy Sierra
+              - column:
+                  name: release_date
+                  value: 2004
+              - column:
+                  name: is_read
+                  value: false
+              - column:
+                  name: length
+                  value: 694
+              - column:
+                  name: current_page
+                  value: 123
+        - insert:
+            tableName: book
+            columns:
+              - column:
+                  name: name
+                  value: Book8
+              - column:
+                  name: author
+                  value: Elisabeth Freeman and Kathy Sierra
+              - column:
+                  name: release_date
+                  value: 2004
+              - column:
+                  name: is_read
+                  value: false
+              - column:
+                  name: length
+                  value: 694
+              - column:
+                  name: current_page
+                  value: 123
